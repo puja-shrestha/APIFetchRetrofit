@@ -47,7 +47,7 @@ public class DisplayRecyclerAdapter extends RecyclerView.Adapter<DisplayRecycler
     @Override
     public void onBindViewHolder(final DisplayRecyclerAdapter.MyViewHolder holder, int position) {
         DisplayItem displayItem = displayItems.get(position);
-        holder.postId.setText("User Id : " + displayItem.getPostId());
+        holder.postId.setText("Post Id : " + displayItem.getPostId());
         holder.id.setText(displayItem.getId());
         holder.name.setText(displayItem.getName());
         holder.email.setText(displayItem.getEmail());

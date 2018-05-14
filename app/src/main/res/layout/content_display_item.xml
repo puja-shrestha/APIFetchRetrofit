@@ -11,6 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_marginVertical="@dimen/activity_vertical_margin"
         android:orientation="vertical"
         android:padding="5dp">
 
@@ -29,22 +31,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="@string/name"
             android:id="@+id/name"
+            android:textSize="@dimen/text_dimention"
             android:textColor="#444"
             android:textAllCaps="true"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email"
+            android:text="@string/email"
+            android:textSize="@dimen/text_dimention"
             android:id="@+id/email"
             android:textColor="#444" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Body"
+            android:text="@string/body"
+            android:textSize="@dimen/text_dimention"
             android:id="@+id/body"/>
 
     </LinearLayout>
